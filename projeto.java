@@ -12,22 +12,10 @@ public class projeto {
 
         String m [][]= new String[3][3];
 
-        m[0][0]="7";
-        m[0][1]="8";
-        m[0][2]="9";
-
-
-        m[1][0]="4";
-        m[1][1]="5";
-        m[1][2]="6";
-
-
-        m[2][0]="1";
-        m[2][1]="2";
-        m[2][2]="3";
-
-
-        System.out.printf("O jogo esta iniciando");
+        m[0][0]="7";    m[1][0]="4";   m[2][0]="1";
+        m[0][1]="8";    m[1][1]="5";   m[2][1]="2";
+        m[0][2]="9";    m[1][2]="6";   m[2][2]="3"; 
+         System.out.printf("O jogo esta iniciando");
 
         System.out.printf("\n" +
                 m[0][0] + "\t" +  m[0][1] + "\t" +  m[0][2] + "\n" + "\n"+
